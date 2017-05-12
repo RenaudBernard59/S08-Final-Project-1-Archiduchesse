@@ -49,11 +49,16 @@
 <div id="mainWrapper">
 <!-- #################### HEADER #################### -->
 <header>
+	<!-- ########## FIRST LINE ########## -->
 	<div class="firstLine">
+
+		<!-- ##### LOGO TITRE ##### -->
 		<div class="title">
 			<h1>Archiduchesse.com</h1>
 			<a href="index.html"><img src="img/logo.png" alt="Logo de Archiduchesse.com" /></a>
 		</div>
+
+		<!-- ##### NAVIGATION PRINCIPALE ##### -->
 		<nav class="mainNavigations">
 			<a href="index.html">
 				<div>Shop</div>
@@ -68,11 +73,31 @@
 				<div>Contact</div>
 			</a>
 		</nav>
+
+		<!-- ##### GESTION PANIER ##### -->
 		<div class="cart">
-			<!--Emply-->
+			<form action="#" class="langue">
+				<label for="langue" class="hidden"></label>
+				<select name="langue" id="langue">
+					<option value="FR">FR</option>
+					<option value="EN">EN</option>
+					<option value="ES">ES</option>
+					<option value="DE">DE</option>
+				</select>
+			</form> <!-- Ending langue Form -->
+		<div class="welcome">
+			Bienvenue, </div>
+			<a href="#">Connexion</a>	
+		<div class="monPannierAfficher">
+			<p>0 Produits dans mon panier</p>
+			<p>Frais de port offerts dans 42 €</p>
 		</div>
+
+		</div><!-- Ending cart-->
 	</div> <!-- Ending firstLine -->
+
 	
+	<!-- ########## SECOND LINE ########## -->
 	<div class="secondLine">
 		<a href="#">
 			<div>
@@ -177,68 +202,33 @@
 </main>
 
 <!-- #################### FOOTER #################### -->
-footer>(<div class="firstFoot">
-	<a href="#">
-		<div class="options">
-			<img src="img/logoCoque.png" alt="Petite Icône" />
-			<p>Fabrication Française</p>
-		</div>
-	</a>
-	<a href="#">
-		<div class="options">
-			<img src="img/logoPaiements.png" alt="Petite Icône" />
-			<p>Paiement Sécurisé</p>
-		</div>
-	</a>
+<footer>
+	<!-- ########## FIRST FOOT ########## -->
+	<div class="firstFoot">
+	
 
-	<a href="#">
-		<div class="options">
-			<img src="img/logoCamion.png" alt="Petite Icône" />
-			<p>ivraison 48/72h</p>
-		</div>
-	</a>
-	<a href="#">
-		<div class="options">
-			<img src="img/;logoMagasin.png" alt="Petite Icône" />
-			<p>
-				33, rue Michelet
-				42000 Saint-Etienne
-				04.27.81.58.70
-			</p>
-		</div>
-	</a>
-	<a href="#">
-		<div class="options">
-			<img src="img/logoFacebook.png" alt="Petite Icône" />
-			<p>Facebook<br/>Plus de 20 000 pouces en l'air</p>
-		</div>
-	</a>
-	<a href="#">
-		<div class="options">
-			<img src="img/logoTwitter.png" alt="Petite Icône" />
-			<p>Twitter<br/>4410 followers</p>
-		</div>
-	</a>
-</div>
-<div class="secondFoot">
-	<div class="legal">
-		<small>
-			Webdesign et Développement par <a href=""#>Axome</a> - Motorisé par <a href="#">Prestashop</a>
-		</small>
 	</div>
-	<div class="legal">
-		<form action="#">
-			<label for="email">Newsletter</label>
-			<input type="email" name="email" id="email" />
-		</form>
-	</div>
-	<div class="legal">
-		<small>
-			<a href="#">Nous passionnantes Conditions Générales de vente</a>
-		</small>
-	</div>
-</div>
 
+	<!-- ########## SECOND FOOT ########## -->
+	<div class="secondFoot">
+		<div class="legal">
+			<small>
+				Webdesign et Développement par <a href=""#>Axome</a> - Motorisé par <a href="#">Prestashop</a>
+			</small>
+		</div>
+		<div class="legal">
+			<form action="#">
+				<label for="email">Newsletter</label>
+				<input type="email" name="email" id="email" />
+			</form>
+		</div>
+		<div class="legal">
+			<small>
+				<a href="#">Nous passionnantes Conditions Générales de vente</a>
+			</small>
+		</div>
+	</div>
+</footer>
 <!-- #################### END #################### -->
 
 </div> <!--Ending MainWrapper -->
