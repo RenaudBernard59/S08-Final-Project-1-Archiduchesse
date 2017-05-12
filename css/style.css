@@ -1,20 +1,112 @@
+/* ========================= SMARTPHONE  + GENERAL========================= */
 
-/* ========================= SMARTPHONE ========================= */
+/* ========== HEADER ========== */
+.firstLine {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	background: orange;
+	border-bottom: solid grey 2px;
+	box-shadow: 0 5px 15px grey;
+}
+
+
+.title {
+	order: 2;
+}
+
+.respMainNav {
+	order: 1;
+}
+
+.respCart {
+	order: 3;	
+}
+
+/* ========== NAV SECONDARY ========== */
+.chooseTaille {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px;
+	margin: 5px;
+}
+
+.taille {
+	border: solid grey 1px;
+	border-radius: 5px;
+	background-color: lightgrey;
+	color: grey;
+	padding: 5px;
+	margin: 5px;
+}
+
+.taille:first-child {
+	background-color: black;
+	color: white;
+}
+
+/* ========== MAIN ========== */
+.chaussettes {
+	border: solid red 1px;
+	padding: 20px;
+}
+
+
+.prix {
+	width: 50px;
+	border: solid grey 1px;
+	border-radius: 5px;
+	background-color: lightgrey;
+	color: grey;
+	padding: 2px;
+	margin: 2px;
+	position: absolute;
+	right:0;
+}
+
+.ctContainer {
+ 	display: flex;
+ 	flex-direction: row; //================================================
+}
+
+
+p.chaussTaille {
+	margin: 0;
+	padding: 0;
+	width: 20px;
+	height: 40px;
+	display: block;
+}
+ hr {
+ 	margin: 0;
+	padding: 0;
+	width: 20px;
+ }
+
+
+
+
+/* ======================== TABLETS ========================= */
 @media (min-width: 768px) {
 
 }
 
-/* ========================= TABLETS ========================= */
+/* ========================= PC PORTABLE ========================= */
 @media (min-width: 992px) {
 
+.title {
+	order: 0;
 }
 
-/* ========================= PC PORTABLE ========================= */
+
+/* ========================= PC OFFICE ========================= */
 @media (min-width: 1200px) {
 
 }
 
 
-/* ========================= PC OFFICE ========================= */
+
 
 
