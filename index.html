@@ -46,20 +46,20 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-<div id="mainWrapper" class="col-lg-offset-2">
+<div id="mainWrapper" class="col-lg-offset-2 col-lg-pull-2">
 <!-- #################### HEADER #################### -->
-<header class="col-md-12">
+<header class=" col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<!-- ########## FIRST LINE ########## -->
 	<div class="firstLine">
 
 		<!-- ##### LOGO TITRE ##### -->
 		<div class="title col-md-4 col-sm-10" >
-			<h1>Archiduchesse.com</h1>
+			<h1 class="hidden">Archiduchesse.com</h1>
 			<a href="index.html"><img src="img/logos/logo.svg" alt="Logo de Archiduchesse.com" /></a>
 		</div>
 
 		<!-- ##### NAVIGATION PRINCIPALE ##### -->
-		<nav class="mainNavigations col-md-4">
+		<nav class="mainNavigations col-md-4 visible-lg-* visible-md-* hidden-sm hidden-xs">
 			<a href="index.html">
 				<div>Shop</div>
 			</a>
@@ -74,8 +74,12 @@
 			</a>
 		</nav>
 
+		<!-- MENU RESPONSIVE  -->
+		<nav class=" respMainNav hidden-lg hidden-md visible-sm-* visible-xs-*">Menu</nav>
+
+
 		<!-- ##### GESTION PANIER ##### -->
-		<div class="cart col-md-4">
+		<div class="cart col-md-4 visible-lg-* visible-md-* hidden-sm hidden-xs">
 			<form action="#" class="langue">
 				<label for="langue" class="hidden"></label>
 				<select name="langue" id="langue">
@@ -92,13 +96,16 @@
 			<p>0 Produits dans mon panier</p>
 			<p>Frais de port offerts dans 42 €</p>
 		</div>
+	</div><!-- Ending cart-->
 
-		</div><!-- Ending cart-->
+	<!-- PANIER RESPONSIVE  -->
+	<div class="respCart hidden-lg hidden-md visible-sm-* visible-xs-*">Panier</div>
+
 	</div> <!-- Ending firstLine -->
 
 	
 	<!-- ########## SECOND LINE ########## -->
-	<div class="secondLine col-md-12">
+	<div class="secondLine col-md-12 visible-lg-* visible-md-* hidden-sm hidden-xs">
 		<a href="#">
 			<div class=" chaussetChoose col-md-2">
 				<img src="img/logos/logoChauss1.png" alt="Petite Icône" />
@@ -160,7 +167,7 @@
 
 	<section class="myChaussettes">
 		<!-- PC LINE 1 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette01.jpg" alt="Une chaussette" />
@@ -174,10 +181,10 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="inseredBlcok col-md-6 col-sm-8 col-xs-12">
-			<img src="img/intersed/intersted01.jpg" alt="Image Interstitielle">
+		<div class="inseredBlcok col-lg-4 col-md-6 col-sm-8 col-xs-12">
+			<img src="img/intersed/intersed01.jpg" alt="Image Interstitielle">
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette02.jpg" alt="Une chaussette" />
@@ -192,7 +199,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 2 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette03.jpg" alt="Une chaussette" />
@@ -207,7 +214,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette04.jpg" alt="Une chaussette" />
@@ -221,7 +228,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette05.jpg" alt="Une chaussette" />
@@ -235,7 +242,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette06.jpg" alt="Une chaussette" />
@@ -250,7 +257,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 3 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette07.jpg" alt="Une chaussette" />
@@ -264,7 +271,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette08.jpg" alt="Une chaussette" />
@@ -278,7 +285,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette09.jpg" alt="Une chaussette" />
@@ -292,7 +299,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette10.jpg" alt="Une chaussette" />
@@ -307,7 +314,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 3 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette11.jpg" alt="Une chaussette" />
@@ -321,7 +328,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette12.jpg" alt="Une chaussette" />
@@ -335,7 +342,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette13.jpg" alt="Une chaussette" />
@@ -349,7 +356,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette14.jpg" alt="Une chaussette" />
@@ -364,7 +371,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 4 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette15.jpg" alt="Une chaussette" />
@@ -378,7 +385,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette16.jpg" alt="Une chaussette" />
@@ -392,7 +399,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette17.jpg" alt="Une chaussette" />
@@ -406,7 +413,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette18.jpg" alt="Une chaussette" />
@@ -421,7 +428,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 5 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette19.jpg" alt="Une chaussette" />
@@ -435,7 +442,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette20.jpg" alt="Une chaussette" />
@@ -449,7 +456,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette21.jpg" alt="Une chaussette" />
@@ -463,7 +470,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette22.jpg" alt="Une chaussette" />
@@ -478,7 +485,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 6 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette23.jpg" alt="Une chaussette" />
@@ -493,7 +500,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette24.jpg" alt="Une chaussette" />
@@ -507,7 +514,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette25.jpg" alt="Une chaussette" />
@@ -521,7 +528,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette26.jpg" alt="Une chaussette" />
@@ -536,7 +543,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 7 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette27.jpg" alt="Une chaussette" />
@@ -550,7 +557,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette28.jpg" alt="Une chaussette" />
@@ -564,7 +571,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette29.jpg" alt="Une chaussette" />
@@ -578,7 +585,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette30.jpg" alt="Une chaussette" />
@@ -593,7 +600,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 8 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette31.jpg" alt="Une chaussette" />
@@ -608,7 +615,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 8 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette32.jpg" alt="Une chaussette" />
@@ -622,7 +629,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette33.jpg" alt="Une chaussette" />
@@ -636,7 +643,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette34.jpg" alt="Une chaussette" />
@@ -651,7 +658,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 9 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette35.jpg" alt="Une chaussette" />
@@ -666,7 +673,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette36.jpg" alt="Une chaussette" />
@@ -680,7 +687,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette37.jpg" alt="Une chaussette" />
@@ -694,7 +701,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette38.jpg" alt="Une chaussette" />
@@ -712,7 +719,7 @@
 		<div class="inseredBlcok col-md-6 col-sm-8 col-xs-12">
 			<img src="img/intersed/intersed02.jpg" alt="Image Interstitielle">
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette39.jpg" alt="Une chaussette" />
@@ -726,7 +733,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette40.jpg" alt="Une chaussette" />
@@ -741,7 +748,7 @@
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
 		<!-- PC LINE 11 -->
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette41.jpg" alt="Une chaussette" />
@@ -755,7 +762,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette42.jpg" alt="Une chaussette" />
@@ -769,7 +776,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette43.jpg" alt="Une chaussette" />
@@ -783,7 +790,7 @@
 			<p class="chaussTaille">36<br><hr>41</p>
 			<p class="chaussTaille">42<br><hr>46</p>
 		</div>
-		<div class="chaussettes col-lg-2 col-md-3 col-sm-6">
+		<div class="chaussettes col-lg-3 col-md-3 col-sm-4 col-xs-6">
 			<div class="prix">6,50 €</div>
 			<figure>
 					<img src="img/chaussettes/chaussette44.jpg" alt="Une chaussette" />
@@ -805,7 +812,7 @@
 </main>	
 
 <!-- #################### FOOTER #################### -->
-<footer>
+<footer class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 	<!-- ########## FIRST FOOT ########## -->
 	<div class="firstFoot">
 		<a href="#">
@@ -826,12 +833,12 @@
 			<div class="options col-md-4 col-sm-6"></div>
 				<div class="options">
 				<img src="img/logos/logoCamion.png" alt="Petite Icône" />
-				<p>ivraison 48/72h</p>
+				<p>Livraison 48/72h</p>
 			</div>
 		</a>
 
 		<a href="#">
-			<div class="options">
+			<div class="options col-md-4 col-sm-6"">
 				<img src="img/logos/logoMagasin.png" alt="Petite Icône" />
 				<!-- hCard microformats see [http://microformats.org] -->
 				<div class="h-card">
@@ -845,14 +852,14 @@
 		</a>
 
 		<a href="#">
-			<div class="options">
+			<div class="options col-md-4 col-sm-6"">
 				<img src="img/logos/logoFacebook.png" alt="Petite Icône" />
 				<p>Facebook<br/>Plus de 20 000 pouces en l'air</p>
 			</div>
 		</a>
 
 		<a href="#">
-			<div class="options">
+			<div class="options col-md-4 col-sm-6"">
 				<img src="img/logos/logoTwitter.png" alt="Petite Icône" />
 				<p>Twitter<br/>4410 followers</p>
 			</div>
