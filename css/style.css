@@ -49,9 +49,9 @@ nav.mainNavigation {
 
 /* ========== NAV SECONDARY ========== */
 .chooseTaille {
-	position: fixed;
-	right: 5px; 
-	z-index: 5;
+	display: flex;
+	flex-direction: row;
+	position: relative;
 	align-items: center;
 	padding: 5px;
 	margin: 5px;
@@ -105,7 +105,7 @@ figure {
 
 .cttCont {
         margin-top: 0;
-        margin-botom: 0;
+        margin-bottom: 0;
         margin-left: 5px;
         margin-right: 5px;
         padding: 5px;
@@ -121,7 +121,8 @@ figure {
     	transition-timing-function : ease-out,linear, ease-in-out, ease-in-out;
 }
 .cttCont:hover {
-	height: 50px;s
+	height: 50px;
+}
 
 p.chaussTaille {
 	margin: 0;
@@ -152,24 +153,34 @@ hr, br {
 	
 .chooseTaille {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+	position: fixed;
+	right: 5px; 
+	z-index: 5;
 	align-items: center;
-	padding: 5px;
-	margin: 5px;
 }
 
 .title {
+	order: 0;
+}
+
+.mainNavigation {
 	order: 1;
 }
 
-.respMainNav {
+.mainNavigation a {
+	padding: 20px;
+	margin: 10px;
+}
+
+.cart {
 	order: 2;
+	background-color: rgba(255, 0, 0, 0.3);
+	margin: 20px;
+	margin-top: 0;
 }
 
-.respCart {
-	order: 3;	
 }
-
 
 /* ========================= PC OFFICE ========================= */
 @media (min-width: 1200px) {
