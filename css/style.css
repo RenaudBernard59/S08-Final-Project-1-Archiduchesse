@@ -13,7 +13,6 @@ a, a:hover {
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
-	background: orange;
 	border-bottom: solid grey 2px;
 	box-shadow: 0 5px 15px grey;
 }
@@ -31,10 +30,28 @@ a, a:hover {
 	order: 3;	
 }
 
+.chaussetChoose {
+	background: lightgrey;
+	border-radius: 5px 5px 0 0;
+	width: 15%;
+	margin: 5px;
+}
+
+
+
+
+/* ========== NAV MAIN ========== */
+nav.mainNavigation {
+    display: flex;
+    
+}
+
+
 /* ========== NAV SECONDARY ========== */
 .chooseTaille {
-	display: flex;
-	flex-direction: row;
+	position: fixed;
+	right: 5px; 
+	z-index: 5;
 	align-items: center;
 	padding: 5px;
 	margin: 5px;
@@ -61,9 +78,8 @@ a, a:hover {
 
 /* ========== MAIN ========== */
 .chaussettes {
-	border: solid red 1px;
 	padding: 20px;
-        padding-bottom:0px;
+    padding-bottom:0px;
 }
 
 
@@ -79,34 +95,44 @@ a, a:hover {
 	right:0;
 }
 
+figure {
+	box-shadow: 0px 10px 5px grey;
+}
+
 .ctContainer {
  	display: flex;
 }
 
 .cttCont {
-        
+        margin-top: 0;
+        margin-botom: 0;
         margin-left: 5px;
         margin-right: 5px;
         padding: 5px;
-        border: solid black 1px;
-        border-radius: 3px;
+        border-radius: 0 0 3px 3px;
         background-color: orange;
         color: white;
+        font-size: 10px;
+		width: 20px;
+		height: 40px;
+		transition-property : bottom, transform;
+    	transition-duration : 0.5s, 1.5s, 0.75s, 0.75s;
+    	transition-delay : 0.05s, 0s, 1s, 1s;
+    	transition-timing-function : ease-out,linear, ease-in-out, ease-in-out;
 }
-
+.cttCont:hover {
+	height: 50px;s
 
 p.chaussTaille {
 	margin: 0;
-	padding:0
-	width: 20px;
-	height: 40px;
+	padding:0;
 	display: block;
 }
 
-hr {
+hr, br {
  	margin: 0;
 	padding: 0;
-	width: 20px;
+
  }
 
 
@@ -122,6 +148,26 @@ hr {
 
 .title {
 	order: 0;
+}
+	
+.chooseTaille {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 5px;
+	margin: 5px;
+}
+
+.title {
+	order: 1;
+}
+
+.respMainNav {
+	order: 2;
+}
+
+.respCart {
+	order: 3;	
 }
 
 
