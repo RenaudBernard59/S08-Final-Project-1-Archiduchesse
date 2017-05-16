@@ -136,6 +136,15 @@ hr, br {
 
  }
 
+article p {
+	text-align: justifiy;
+}
+
+.auteurs {
+	color: grey;
+}
+
+
 
 
 
