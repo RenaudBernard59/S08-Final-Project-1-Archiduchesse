@@ -140,7 +140,53 @@
 <main>
 
 	<section class="myChaussettes">
+		<form action="#" method="post">
+			<div>
+				<label for="name">Nom :</label>
+				<input type="text" name="name" id="name" value="name" tabindex="1" />
+			</div>
+			<div>
+				<h4>Sexe: </h4>
 		
+				<label for="radio-choice-1">M</label>
+				<input type="radio" name="male" id="male" tabindex="2" value="male" />
+		
+				<label for="radio-choice-2">F</label>
+				<input type="radio" name="female" id="female" tabindex="3" value="female" />
+			</div>
+			<div>
+				<label for="name">E-Mail :</label>
+				<input type="text" name="mail" id="mail" value="mail" tabindex="4" />
+			</div>
+
+
+		
+
+			<div>
+				<label for="textarea">Mon message :</label>
+				<textarea cols="40" rows="8" name="textarea" id="textarea"></textarea>
+			</div>
+			
+			<div>
+				<label for="checkbox">J'accepte les conditons:</label>
+				<input type="checkbox" name="conditions" id="conditions" />
+			</div>
+		
+
+			<div>
+				<label for="select-choice">Newsletter :</label>
+				<select name="select-choice" id="select-choice">
+					<option value="Choice1">S'abonner à la newsletter</option>
+					<option value="Choice2">Recevoir les mails des partenaires</option>
+				</select>
+			</div>
+			
+
+
+			<div>
+				<input type="submit" value="Submit" />
+			</div>
+		</form>
 
 	</section> <!-- Ending myChaussettes -->
 </main>	
